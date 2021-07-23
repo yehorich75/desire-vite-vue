@@ -10,33 +10,33 @@
     </main>
 </template>
 
-<script lang="ts">
+<script>
 
-    import Vcarousel from './Vcarousel.vue';
+    import vCarousel from './VCarousel.vue';
 
     export default ({
-        name: 'Main',
+        name: 'MainContent',
         components: {
-            Vcarousel
+            vCarousel
         },
         data (){
             return {
                 sliderItems: [
                     {
                         id: '1',
-                        image: 'slider/slider-colorful-gifts.jpg', 
-                        lt: 'Slider Image 1',
+                        image: 'slider-colorful-gifts.jpg', 
+                        alt: 'Slider Image 1',
                         title: 'Чудові подарунки',
                         text: 'Deep v you probably havent heard of them banh mi synth actually affogatAesthetic lyft ethical drinking vinegar austint'},
                     {
                         id: '2',
-                        image: 'slider/slider-detailed-elegance.jpg',
+                        image: 'slider-detailed-elegance.jpg',
                         alt: 'Slider Image 2',
                         title: 'Детальна елегантність', 
                         ext: 'Deep v you probably havent heard of them banh mi synth actually affogatAesthetic lyft ethical drinking vinegar austint'},
                     {
                         id: '3',
-                        image: 'slider/slider-perfect-chandeliers.jpg',
+                        image: 'slider-perfect-chandeliers.jpg',
                         alt: 'Slider Image 3',
                         title: 'Ідеальні люстри',
                         text: 'Deep v you probably havent heard of them banh mi synth actually affogatAesthetic lyft ethical drinking vinegar austint'}

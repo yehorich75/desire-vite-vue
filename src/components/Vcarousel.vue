@@ -5,8 +5,6 @@
                 v-for="item in carousel_data"
                 :key="item.id"
                 :item_data="item"
-                :imageSlide="false"
-                :width="sliderWidth"
             />
         </div>
     </div>
@@ -17,7 +15,7 @@
     import vCarouselItem from './v-carousel-item.vue';
 
     export default {
-        name: "vCarousel",
+        name: "v-carousel",
         components: {
             vCarouselItem
         },

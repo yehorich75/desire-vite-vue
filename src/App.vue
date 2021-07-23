@@ -1,20 +1,20 @@
 <template>
     <div class="wrapper">
-        <Header />
-        <Main />
+        <MainHeader />
+        <MainContent />
     </div>
 </template>
 
 <script lang="ts">
 // import { defineComponent } from 'vue'
-import Header from './components/Header.vue';
-import Main from './components/Main.vue';
+import MainHeader from './components/MainHeader.vue';
+import MainContent from './components/MainContent.vue';
 
 export default {
     name: 'App',
     components: { 
-        Header,
-        Main
+        MainHeader,
+        MainContent
     }
 }
 </script>
