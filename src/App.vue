@@ -1,8 +1,8 @@
 <template>
-  <div class="wrapper">
-    <Header />
-    <Main />
-  </div>
+    <div class="wrapper">
+        <Header />
+        <Main />
+    </div>
 </template>
 
 <script lang="ts">
@@ -11,11 +11,11 @@ import Header from './components/Header.vue';
 import Main from './components/Main.vue';
 
 export default {
-  name: 'App',
-  components: { 
-    Header,
-    Main
-  }
+    name: 'App',
+    components: { 
+        Header,
+        Main
+    }
 }
 </script>
 

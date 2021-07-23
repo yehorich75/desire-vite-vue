@@ -14,12 +14,12 @@
 
 <script>
 
-    import VcarouselItem from './VcarouselItem.vue';
+    import vCarouselItem from './v-carousel-item.vue';
 
     export default {
-        name: "Vcarousel",
+        name: "vCarousel",
         components: {
-            VcarouselItem
+            vCarouselItem
         },
         props: {
             carousel_data: {
