@@ -10,14 +10,14 @@
     </main>
 </template>
 
-<script>
+<script lang="ts">
 
-    import vCarousel from './v-carousel.vue';
+    import Vcarousel from './Vcarousel.vue';
 
     export default ({
         name: 'Main',
         components: {
-            vCarousel
+            Vcarousel
         },
         data (){
             return {

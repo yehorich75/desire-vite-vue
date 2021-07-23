@@ -1,25 +1,25 @@
 <template>
     <div class="top__slider">
         <div class="v-carousel">
-            <vCarouselItem
+            <v-carousel-item
                 v-for="item in carousel_data"
                 :key="item.id"
                 :item_data="item"
                 :imageSlide="false"
                 :width="sliderWidth"
-                />
+            />
         </div>
     </div>
 </template>
 
 <script>
 
-    import vCarouselItem from './v-carousel-item.vue';
+    import VcarouselItem from './VcarouselItem.vue';
 
     export default {
-        name: "v-carousel",
+        name: "Vcarousel",
         components: {
-            vCarouselItem
+            VcarouselItem
         },
         props: {
             carousel_data: {

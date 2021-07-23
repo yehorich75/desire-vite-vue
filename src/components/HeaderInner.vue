@@ -37,11 +37,11 @@
     
 </template>
 
-<script>
+<script lang="ts">
     import HeaderLogo from './HeaderLogo.vue'
     import SideMenu from './SideMenu.vue'
 
-export default {
+export default{
     name: 'HeaderInner',
     components: {
         HeaderLogo,

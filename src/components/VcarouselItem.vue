@@ -1,13 +1,13 @@
 <template>
     <div class="v-carousel-item">
-        <img :src='require("../assets/images" + item_data.image)'>
+        <img :src='require("../assets/images" + carousel_data.image)'>
     </div>
 </template>
 
 
-<script lang=" js">
+<script>
     export default {
-        name: 'VCarouselItem',
+        name: 'VcarouselItem',
         props: {
             item_data: {
                 type: Object,
